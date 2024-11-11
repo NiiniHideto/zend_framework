@@ -12,5 +12,11 @@
  */
 
 return [
-    // ...
+    // PDO を使って MySQL データベースに接続
+    'db' => [
+        'driver' => 'Pdo_Mysql',
+        'dsn' => 'mysql:dbname=self_order;host=db;charset=utf8',
+        'username' => 'db_user',
+        'password' => 'secret',
+    ],
 ];
