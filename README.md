@@ -24,4 +24,8 @@ doc_root/ にファイルが生成される。
 
 Zend Framework の Welcome 画面が表示されれば成功。
 
+パーミッションの変更が必要
+
+chmod 777 doc_root/data/cache
+
 
